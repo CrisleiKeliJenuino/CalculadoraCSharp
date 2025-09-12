@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\GITHUB\\calculadora_c_char\\calculadora_c_char.csproj",
-      "projectName": "calculadora_c_char",
-      "projectPath": "D:\\GITHUB\\calculadora_c_char\\calculadora_c_char.csproj",
+      "projectUniqueName": "D:\\GITHUB\\CalculadoraCSharp\\CalculadoraCSharp.csproj",
+      "projectName": "CalculadoraCSharp",
+      "projectPath": "D:\\GITHUB\\CalculadoraCSharp\\CalculadoraCSharp.csproj",
       "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-      "outputPath": "D:\\GITHUB\\calculadora_c_char\\obj\\",
+      "outputPath": "D:\\GITHUB\\CalculadoraCSharp\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config"

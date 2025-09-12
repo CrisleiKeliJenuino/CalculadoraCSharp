@@ -1,0 +1,15 @@
+D:\GITHUB\CalculadoraCSharp\bin\Debug\net8.0\CalculadoraCSharp.exe
+D:\GITHUB\CalculadoraCSharp\bin\Debug\net8.0\CalculadoraCSharp.deps.json
+D:\GITHUB\CalculadoraCSharp\bin\Debug\net8.0\CalculadoraCSharp.runtimeconfig.json
+D:\GITHUB\CalculadoraCSharp\bin\Debug\net8.0\CalculadoraCSharp.dll
+D:\GITHUB\CalculadoraCSharp\bin\Debug\net8.0\CalculadoraCSharp.pdb
+D:\GITHUB\CalculadoraCSharp\obj\Debug\net8.0\CalculadoraCSharp.GeneratedMSBuildEditorConfig.editorconfig
+D:\GITHUB\CalculadoraCSharp\obj\Debug\net8.0\CalculadoraCSharp.AssemblyInfoInputs.cache
+D:\GITHUB\CalculadoraCSharp\obj\Debug\net8.0\CalculadoraCSharp.AssemblyInfo.cs
+D:\GITHUB\CalculadoraCSharp\obj\Debug\net8.0\CalculadoraCSharp.csproj.CoreCompileInputs.cache
+D:\GITHUB\CalculadoraCSharp\obj\Debug\net8.0\CalculadoraCSharp.sourcelink.json
+D:\GITHUB\CalculadoraCSharp\obj\Debug\net8.0\CalculadoraCSharp.dll
+D:\GITHUB\CalculadoraCSharp\obj\Debug\net8.0\refint\CalculadoraCSharp.dll
+D:\GITHUB\CalculadoraCSharp\obj\Debug\net8.0\CalculadoraCSharp.pdb
+D:\GITHUB\CalculadoraCSharp\obj\Debug\net8.0\CalculadoraCSharp.genruntimeconfig.cache
+D:\GITHUB\CalculadoraCSharp\obj\Debug\net8.0\ref\CalculadoraCSharp.dll
