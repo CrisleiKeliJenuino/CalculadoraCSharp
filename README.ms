@@ -6,7 +6,7 @@ Uma **calculadora de console simples** capaz de realizar **4 operações básica
 
 ## 💡 Funcionalidades
 
-| Operação       | Emoji |
+| Operação       |       |
 |----------------|-------|
 | Somar          | ➕    |
 | Subtrair       | ➖    |
