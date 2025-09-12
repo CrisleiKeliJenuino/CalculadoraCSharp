@@ -4,7 +4,7 @@
 ![.NET](https://img.shields.io/badge/.NET-512BD4?style=for-the-badge&logo=dotnet&logoColor=white) 
 ![Console](https://img.shields.io/badge/Console-000000?style=for-the-badge&logo=windows-terminal&logoColor=white)
 ![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
-![Visual Studio](https://img.shields.io/badge/Visual_Studio-5C2D91?style=for-the-badge&logo=visual-studio&logoColor=white)
+![Visual Studio](https://img.shields.io/badge/Visual%20Studio-5C2D91?style=for-the-badge&logo=visual-studio&logoColor=white)
 ![Open Source](https://img.shields.io/badge/Open%20Source-4AB197?style=for-the-badge)
 
 Uma **calculadora de console simples** capaz de realizar **4 operações básicas**: soma, subtração, multiplicação e divisão.
