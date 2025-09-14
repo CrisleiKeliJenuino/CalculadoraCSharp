@@ -1,18 +1,18 @@
 # 🖥️ Calculadora Simples em C# & .NET
 
-Uma **calculadora de console simples** capaz de realizar **4 operações básicas**: soma, subtração, multiplicação e divisão.
+Uma calculadora de console simples capaz de realizar 4 operações básicas: soma, subtração, multiplicação e divisão.
 
 ---
 
 ## 💡 Funcionalidades
 
-| Operação       | Emoji |
-|----------------|-------|
-| Somar          | ➕    |
-| Subtrair       | ➖    |
-| Multiplicar    | ✖️    |
-| Dividir        | ➗    |
-| Resultado      | 🖥️    |
+| Operação       |     |
+|----------------|-----|
+| Somar          | ➕  |
+| Subtrair       | ➖  |
+| Multiplicar    | ✖️  |
+| Dividir        | ➗  |
+| Resultado      | 🖥️  |
 
 ---
 
