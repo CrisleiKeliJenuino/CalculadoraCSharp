@@ -49,9 +49,9 @@ Este projeto foi construído com as seguintes tecnologias:
 
 | Tecnologia | Descrição |
 | :--- | :--- |
-| https://img.shields.io/badge/C%23-239120?logo=c-sharp&logoColor=white&style=for-the-badge | Linguagem de programação principal, moderna e orientada a objetos. |
-| https://img.shields.io/badge/.NET-5C2D91?logo=.net&logoColor=white&style=for-the-badge | Framework de desenvolvimento, garantindo performance e recursos atuais. |
-| https://img.shields.io/badge/VS_Code-007ACC?logo=visual-studio-code&logoColor=white&style=for-the-badge | Ambiente de execução, focado na simplicidade e no aprendizado de lógica. |
+| ![C#](https://img.shields.io/badge/C%23-239120?logo=c-sharp&logoColor=white&style=for-the-badge) | Linguagem de programação principal, moderna e orientada a objetos. |
+| ![.NET](https://img.shields.io/badge/.NET-5C2D91?logo=dotnet&logoColor=white&style=for-the-badge) | Framework de desenvolvimento, garantindo performance e recursos atuais. |
+| ![VS Code](https://img.shields.io/badge/VS_Code-007ACC?logo=visual-studio-code&logoColor=white&style=for-the-badge) | Ambiente de execução e edição de código. |
 
 ---
 
