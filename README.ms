@@ -1,78 +1,99 @@
-# 🧮 Calculadora em C# & .NET  
+# 🧮 Calculadora em C\# & .NET
 
-![C#](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white) 
-![.NET](https://img.shields.io/badge/.NET-512BD4?style=for-the-badge&logo=dotnet&logoColor=white) 
-![Console](https://img.shields.io/badge/Console_App-000000?style=for-the-badge&logo=windows-terminal&logoColor=white)  
-![Status](https://img.shields.io/badge/Status-Em%20Desenvolvimento-yellow?style=for-the-badge)  
-![GitHub repo size](https://img.shields.io/github/repo-size/SEU_USUARIO/CalculadoraCSharp?style=for-the-badge&logo=github)  
-![GitHub last commit](https://img.shields.io/github/last-commit/SEU_USUARIO/CalculadoraCSharp?style=for-the-badge&logo=git)  
+-----
 
----
+## 📌 Sobre o Projeto
 
-## 📌 Sobre o Projeto  
+Este projeto é uma **calculadora de console** desenvolvida em **C\#** para fins de estudo e prática. A aplicação realiza operações matemáticas básicas e avançadas, como **soma, subtração, multiplicação, divisão**, e também inclui funções para **potência, raiz quadrada e trigonometria**. O objetivo principal foi aprimorar o conhecimento em C\# e na estrutura de projetos .NET.
 
-Este projeto é uma **Calculadora em C#** ⚡ que roda no console 🖥️.  
-Foi criada para **praticar programação** 👩‍💻👨‍💻 e explorar operações matemáticas ➗✖️➕➖ com funções extras como trigonometria 🔺 e incremento/decremento 📈📉.  
+-----
 
----
+## ⚙️ Funcionalidades
 
-## ⚙️ Funcionalidades  
+A calculadora oferece as seguintes operações:
 
-- ➕ **Soma**  
-- ➖ **Subtração**  
-- ✖️ **Multiplicação**  
-- ➗ **Divisão**  
-- 🔢 **Potência**  
-- 🧮 **Raiz Quadrada**  
-- 📐 **Seno**  
-- 📏 **Cosseno**  
-- 📊 **Tangente**  
-- 🔼 **Incremento**  
-- 🔽 **Decremento**  
+  * **Soma** (`+`)
+  * **Subtração** (`-`)
+  * **Multiplicação** (`*`)
+  * **Divisão** (`/`)
+  * **Potência** (`^`)
+  * **Raiz Quadrada**
+  * **Seno**
+  * **Cosseno**
+  * **Tangente**
+  * **Incremento** (`++`)
+  * **Decremento** (`--`)
 
----
+-----
 
-## 📂 Estrutura do Projeto  
+## 📂 Estrutura do Projeto
 
-📁 **CalculadoraCSharp**  
- ┣ 📂 `Models/Calculadora.cs` → Classe com os métodos matemáticos ⚙️  
- ┣ 📜 `Program.cs` → Arquivo principal para rodar a calculadora ▶️  
+  * `Program.cs`: O ponto de entrada da aplicação, onde a lógica principal é executada.
+  * `Models/Calculadora.cs`: Contém a classe `Calculadora` com todos os métodos para as operações matemáticas.
 
----
+-----
 
-## ▶️ Como Executar  
+## ▶️ Como Executar
 
-1. Clone este repositório 📥  
-   ```bash
-   git clone https://github.com/SEU_USUARIO/CalculadoraCSharp.git
+Para rodar o projeto em sua máquina local, siga estes passos:
 
+1.  **Clone o repositório:**
+    ```bash
+    git clone https://github.com/SEU_USUARIO/CalculadoraCSharp.git
+    ```
+2.  **Navegue até o diretório do projeto:**
+    ```bash
+    cd CalculadoraCSharp
+    ```
+3.  **Execute a aplicação via linha de comando:**
+    ```bash
+    dotnet run
+    ```
+
+### Exemplo de Uso
+
+O arquivo `Program.cs` demonstra como usar os métodos da classe `Calculadora`:
+
+```csharp
 using CalculadoraCSharp.Models;
 
 Calculadora calc = new Calculadora();
-calc.Somar(10, 30);       // ➝ 40
-calc.Subtrair(10, 50);    // ➝ -40
-calc.Multiplicar(15, 45); // ➝ 675
-calc.Dividir(2, 2);       // ➝ 1
-calc.Potencia(3, 3);      // ➝ 27
-calc.Seno(30);
-calc.Coseno(30);
-calc.Tangente(30);
-calc.RaizQuadrada(9);     // ➝ 3
 
+// Operações básicas
+calc.Somar(10, 30);       // Saída: 40
+calc.Subtrair(10, 50);    // Saída: -40
+calc.Multiplicar(15, 45); // Saída: 675
+calc.Dividir(2, 2);       // Saída: 1
+
+// Operações avançadas
+calc.Potencia(3, 3);      // Saída: 27
+calc.RaizQuadrada(9);     // Saída: 3
+calc.Seno(30);            // Saída: 0.5 (aproximadamente)
+calc.Coseno(30);          // Saída: 0.866 (aproximadamente)
+calc.Tangente(30);        // Saída: 0.577 (aproximadamente)
+
+// Incremento e decremento
 int numeroIncremento = 10;
-numeroIncremento++; // ➝ 11 ✅
+numeroIncremento++;       // valor será 11
 
 int numeroDecremento = 20;
-numeroDecremento--; // ➝ 19 ✅
+numeroDecremento--;       // valor será 19
+```
 
-🚀 Tecnologias Utilizadas
+-----
 
-🟣 C#
-🔵 .NET 8
-⚫ Console Application
+## 🚀 Tecnologias Utilizadas
 
-👩‍💻 Autor
+  * **Linguagem:** C\#
+  * **Framework:** .NET 8
+  * **Ambiente:** Console Application
 
-Feito com ❤️ e muita ☕ por Crislei Jenuino
+-----
 
-✨ Se gostou do projeto, deixe uma ⭐ no repositório!
+## 👩‍💻 Autor
+
+Este projeto foi desenvolvido por **Crislei Jenuino**.
+
+[](https://www.google.com/search?q=https://github.com/SEU_USUARIO)
+
+Se este projeto foi útil para você, considere dar uma ⭐ no repositório\!
