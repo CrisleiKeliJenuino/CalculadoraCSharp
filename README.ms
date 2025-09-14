@@ -1,25 +1,30 @@
 # 🧮 Calculadora em C\# & .NET
 
------
+\<div align="center"\>
+
+\</div\>
 
 ## 📌 Sobre o Projeto
 
-Este projeto é uma **calculadora de console** 💻 desenvolvida em **C\#** para fins de estudo e prática. A aplicação realiza operações matemáticas básicas e avançadas, como **soma, subtração, multiplicação, divisão**, e também inclui funções para **potência, raiz quadrada** e **trigonometria**. O objetivo principal foi aprimorar o conhecimento em C\# e na estrutura de projetos .NET.
+Este projeto é uma **calculadora de console** 💻 desenvolvida em **C\#** com o **.NET 8**. 
+Criado como uma ferramenta de estudo, o projeto aplica conceitos fundamentais da linguagem 
+e da estrutura de projetos .NET, oferecendo um conjunto de operações matemáticas básicas e 
+avançadas de forma simples e eficiente.
 
 -----
 
 ## ⚙️ Funcionalidades
 
-A calculadora oferece as seguintes operações:
+A calculadora oferece um menu completo de operações matemáticas:
 
-| Operação | Símbolo | Descrição |
+| Operação | Símbolo / Comando | Descrição |
 |:---:|:---:|:---:|
 | **Soma** | `+` | Adiciona dois números. |
 | **Subtração** | `-` | Subtrai um número de outro. |
 | **Multiplicação** | `*` | Multiplica dois números. |
 | **Divisão** | `/` | Divide um número por outro. |
 | **Potência** | `^` | Calcula a potência de um número. |
-| **Raiz Quadrada** | `√` | Retorna a raiz quadrada de um número. |
+| **Raiz Quadrada** | `√` ou `sqrt` | Retorna a raiz quadrada de um número. |
 | **Seno** | `sin` | Calcula o seno de um ângulo em graus. |
 | **Cosseno** | `cos` | Calcula o cosseno de um ângulo em graus. |
 | **Tangente** | `tan` | Calcula a tangente de um ângulo em graus. |
@@ -28,66 +33,114 @@ A calculadora oferece as seguintes operações:
 
 -----
 
+## 🚀 Tecnologias Utilizadas
+
+Este projeto foi construído com as seguintes tecnologias:
+
+| Tecnologia | Descrição |
+| :--- | :--- |
+| **`C#`** | Linguagem de programação principal, moderna e orientada a objetos. |
+| **`.NET 8`** | Framework de desenvolvimento, garantindo performance e recursos atuais. |
+| **`Console`** | Ambiente de execução, focado na simplicidade e no aprendizado de lógica. |
+
+-----
+
 ## 📁 Estrutura do Projeto
 
-  * `Program.cs`: O ponto de entrada da aplicação, onde a lógica principal é executada.
-  * `Models/Calculadora.cs`: Contém a classe `Calculadora` com todos os métodos para as operações matemáticas.
+O projeto está organizado de forma clara e modular para facilitar o entendimento e a manutenção:
+
+```
+CalculadoraCSharp/
+├── Models/
+│   └── Calculadora.cs  # Classe com a lógica e os métodos matemáticos
+└── Program.cs          # Ponto de entrada da aplicação e interface com o usuário
+```
 
 -----
 
 ## ▶️ Como Executar
 
-Para rodar o projeto em sua máquina local, siga estes passos:
+Para rodar o projeto em sua máquina local, siga os passos abaixo.
+
+### **Pré-requisitos**
+
+Antes de começar, você vai precisar ter as seguintes ferramentas instaladas em seu ambiente:
+
+  * **[.NET 8 SDK](https://dotnet.microsoft.com/download/dotnet/8.0)**
+  * **[Git](https://git-scm.com/downloads)**
+
+### **Passo a Passo**
 
 1.  **Clone o repositório:** 📥
     ```bash
+    # Clone este repositório para sua máquina local
     git clone https://github.com/SEU_USUARIO/CalculadoraCSharp.git
     ```
 2.  **Navegue até o diretório do projeto:**
     ```bash
+    # Acesse a pasta do projeto
     cd CalculadoraCSharp
     ```
-3.  **Execute a aplicação via linha de comando:** ▶️
+3.  **Execute a aplicação:** ▶️
     ```bash
+    # Rode o projeto
     dotnet run
     ```
 
-### Exemplo de Uso
+\<br\>
 
-O arquivo `Program.cs` demonstra como usar os métodos da classe `Calculadora`:
+\<details\>
+\<summary\>\<strong\>Exemplo de Uso no Código\</strong\>\</summary\>
+
+O arquivo `Program.cs` demonstra como instanciar e utilizar os métodos da classe `Calculadora`:
 
 ```csharp
 using CalculadoraCSharp.Models;
 
+// Cria uma instância da calculadora
 Calculadora calc = new Calculadora();
 
-// Operações básicas
-calc.Somar(10, 30);       // Saída: 40
-calc.Subtrair(10, 50);    // Saída: -40
-calc.Multiplicar(15, 45); // Saída: 675
+// --- Operações básicas ---
+calc.Somar(10, 30);       // Saída: O resultado da soma é: 40
+calc.Subtrair(10, 50);    // Saída: O resultado da subtração é: -40
+calc.Multiplicar(15, 45); // Saída: O resultado da multiplicação é: 675
+calc.Dividir(10, 2);      // Saída: O resultado da divisão é: 5
 
-// Incremento e decremento
+// --- Potência e Raiz ---
+calc.Potencia(3, 3);      // Saída: 3 elevado a 3 é: 27
+calc.RaizQuadrada(9);     // Saída: A raiz quadrada de 9 é: 3
+
+// --- Trigonometria ---
+calc.Seno(30);            // Saída: O Seno de 30° é: 0.5
+calc.Cosseno(60);         // Saída: O Cosseno de 60° é: 0.5
+calc.Tangente(45);        // Saída: A Tangente de 45° é: 1
+
+// --- Incremento e Decremento ---
 int numeroIncremento = 10;
-numeroIncremento++;       // valor será 11
+numeroIncremento++;       // valor agora é 11
 
 int numeroDecremento = 20;
-numeroDecremento--;       // valor será 19
+numeroDecremento--;       // valor agora é 19
 ```
 
------
-
-## 🚀 Tecnologias Utilizadas
-
-  * **Linguagem:** C\# 🟣
-  * **Framework:** .NET 8 🔵
-  * **Ambiente:** Console Application ⚫
+\</details\>
 
 -----
 
 ## 👩‍💻 Autor
 
-Este projeto foi desenvolvido com ❤️ e ☕ por **Crislei Jenuino**.
+\<a href="[https://github.com/Crislei-Jenuino](https://www.google.com/search?q=https://github.com/Crislei-Jenuino)"\>
+\<img style="border-radius: 50%;" src="[https://avatars.githubusercontent.com/u/109483984?v=4](https://www.google.com/search?q=https://avatars.githubusercontent.com/u/109483984%3Fv%3D4)" width="100px;" alt="Foto de Crislei Jenuino"/\>
+\<br /\>
+\<sub\>\<b\>Crislei Jenuino\</b\>\</sub\>
+\</a\>
+\<br /\>
 
-[](https://www.google.com/search?q=https://github.com/SEU_USUARIO)
+Feito com ❤️ e ☕\!
+
+[](https://www.google.com/search?q=%5Bhttps://www.linkedin.com/in/crislei-jenuino/%5D\(https://www.linkedin.com/in/crislei-jenuino/\))
+[](https://www.google.com/search?q=https://github.com/Crislei-Jenuino)
+
+-----
 
 Se este projeto foi útil para você, considere dar uma ⭐ no repositório\! ✨
