@@ -1,17 +1,19 @@
-# 🧮 Calculadora em C\# & .NET
+# 🧮 Calculadora em C# & .NET
 
-\<div align="center"\>
+<div align="center">
 
-\</div\>
+[![Badge C#](https://img.shields.io/badge/C%23-9A4993?style=for-the-badge&logo=c-sharp&logoColor=white)](https://docs.microsoft.com/pt-br/dotnet/csharp/)
+[![Badge .NET](https://img.shields.io/badge/.NET-8-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)](https://dotnet.microsoft.com/pt-br/)
+[![Badge Status](https://img.shields.io/badge/status-concluído-brightgreen?style=for-the-badge)](./)
+[![Badge Licença](https://img.shields.io/badge/licença-MIT-blue?style=for-the-badge)](LICENSE)
+
+</div>
 
 ## 📌 Sobre o Projeto
 
-Este projeto é uma **calculadora de console** 💻 desenvolvida em **C\#** com o **.NET 8**. 
-Criado como uma ferramenta de estudo, o projeto aplica conceitos fundamentais da linguagem 
-e da estrutura de projetos .NET, oferecendo um conjunto de operações matemáticas básicas e 
-avançadas de forma simples e eficiente.
+Este projeto é uma **calculadora de console** 💻 desenvolvida em **C#** com o **.NET 8**. Criado como uma ferramenta de estudo, o projeto aplica conceitos fundamentais da linguagem e da estrutura de projetos .NET, oferecendo um conjunto de operações matemáticas básicas e avançadas de forma simples e eficiente.
 
------
+---
 
 ## ⚙️ Funcionalidades
 
@@ -31,7 +33,7 @@ A calculadora oferece um menu completo de operações matemáticas:
 | **Incremento** | `++` | Aumenta o valor de uma variável em 1. |
 | **Decremento** | `--` | Diminui o valor de uma variável em 1. |
 
------
+---
 
 ## 🚀 Tecnologias Utilizadas
 
@@ -43,20 +45,22 @@ Este projeto foi construído com as seguintes tecnologias:
 | **`.NET 8`** | Framework de desenvolvimento, garantindo performance e recursos atuais. |
 | **`Console`** | Ambiente de execução, focado na simplicidade e no aprendizado de lógica. |
 
------
+---
 
 ## 📁 Estrutura do Projeto
 
 O projeto está organizado de forma clara e modular para facilitar o entendimento e a manutenção:
 
 ```
+
 CalculadoraCSharp/
 ├── Models/
-│   └── Calculadora.cs  # Classe com a lógica e os métodos matemáticos
-└── Program.cs          # Ponto de entrada da aplicação e interface com o usuário
-```
+│   └── Calculadora.cs  \# Classe com a lógica e os métodos matemáticos
+└── Program.cs          \# Ponto de entrada da aplicação e interface com o usuário
 
------
+````
+
+---
 
 ## ▶️ Como Executar
 
@@ -65,16 +69,15 @@ Para rodar o projeto em sua máquina local, siga os passos abaixo.
 ### **Pré-requisitos**
 
 Antes de começar, você vai precisar ter as seguintes ferramentas instaladas em seu ambiente:
-
-  * **[.NET 8 SDK](https://dotnet.microsoft.com/download/dotnet/8.0)**
-  * **[Git](https://git-scm.com/downloads)**
+* **[.NET 8 SDK](https://dotnet.microsoft.com/download/dotnet/8.0)**
+* **[Git](https://git-scm.com/downloads)**
 
 ### **Passo a Passo**
 
 1.  **Clone o repositório:** 📥
     ```bash
     # Clone este repositório para sua máquina local
-    git clone https://github.com/SEU_USUARIO/CalculadoraCSharp.git
+    git clone [https://github.com/SEU_USUARIO/CalculadoraCSharp.git](https://github.com/SEU_USUARIO/CalculadoraCSharp.git)
     ```
 2.  **Navegue até o diretório do projeto:**
     ```bash
@@ -87,10 +90,10 @@ Antes de começar, você vai precisar ter as seguintes ferramentas instaladas em
     dotnet run
     ```
 
-\<br\>
+<br>
 
-\<details\>
-\<summary\>\<strong\>Exemplo de Uso no Código\</strong\>\</summary\>
+<details>
+<summary><strong>Exemplo de Uso no Código</strong></summary>
 
 O arquivo `Program.cs` demonstra como instanciar e utilizar os métodos da classe `Calculadora`:
 
@@ -121,7 +124,7 @@ numeroIncremento++;       // valor agora é 11
 
 int numeroDecremento = 20;
 numeroDecremento--;       // valor agora é 19
-```
+````
 
 \</details\>
 
@@ -129,8 +132,8 @@ numeroDecremento--;       // valor agora é 19
 
 ## 👩‍💻 Autor
 
-\<a href="[https://github.com/Crislei-Jenuino](https://www.google.com/search?q=https://github.com/Crislei-Jenuino)"\>
-\<img style="border-radius: 50%;" src="[https://avatars.githubusercontent.com/u/109483984?v=4](https://www.google.com/search?q=https://avatars.githubusercontent.com/u/109483984%3Fv%3D4)" width="100px;" alt="Foto de Crislei Jenuino"/\>
+\<a href="https://www.google.com/search?q=https://github.com/Crislei-Jenuino"\>
+\<img style="border-radius: 50%;" src="https://www.google.com/search?q=https://avatars.githubusercontent.com/u/109483984%3Fv%3D4" width="100px;" alt="Foto de Crislei Jenuino"/\>
 \<br /\>
 \<sub\>\<b\>Crislei Jenuino\</b\>\</sub\>
 \</a\>
@@ -138,9 +141,12 @@ numeroDecremento--;       // valor agora é 19
 
 Feito com ❤️ e ☕\!
 
-[](https://www.google.com/search?q=%5Bhttps://www.linkedin.com/in/crislei-jenuino/%5D\(https://www.linkedin.com/in/crislei-jenuino/\))
+[](https://www.google.com/search?q=https://www.linkedin.com/in/crislei-jenuino/)
 [](https://www.google.com/search?q=https://github.com/Crislei-Jenuino)
 
 -----
 
 Se este projeto foi útil para você, considere dar uma ⭐ no repositório\! ✨
+
+```
+```
