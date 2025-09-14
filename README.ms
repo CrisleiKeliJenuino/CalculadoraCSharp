@@ -15,6 +15,14 @@ Este projeto é uma **calculadora de console** 💻 desenvolvida em **C#** com o
 
 ---
 
+## ✨ Demonstração Rápida
+
+*(Sugestão: Grave um GIF rápido da calculadora em ação e insira aqui para um grande impacto visual!)*
+
+![GIF de demonstração da calculadora](https://user-images.githubusercontent.com/10948398/200723824-c1f93006-3d6e-48a0-8a8b-53cdd48c0b58.gif)
+
+---
+
 ## ⚙️ Funcionalidades
 
 A calculadora oferece um menu completo de operações matemáticas:
@@ -41,9 +49,9 @@ Este projeto foi construído com as seguintes tecnologias:
 
 | Tecnologia | Descrição |
 | :--- | :--- |
-| **`C#`** | Linguagem de programação principal, moderna e orientada a objetos. |
-| **`.NET 8`** | Framework de desenvolvimento, garantindo performance e recursos atuais. |
-| **`Console`** | Ambiente de execução, focado na simplicidade e no aprendizado de lógica. |
+| https://img.shields.io/badge/C%23-239120?logo=c-sharp&logoColor=white&style=for-the-badge | Linguagem de programação principal, moderna e orientada a objetos. |
+| https://img.shields.io/badge/.NET-5C2D91?logo=.net&logoColor=white&style=for-the-badge | Framework de desenvolvimento, garantindo performance e recursos atuais. |
+| https://img.shields.io/badge/VS_Code-007ACC?logo=visual-studio-code&logoColor=white&style=for-the-badge | Ambiente de execução, focado na simplicidade e no aprendizado de lógica. |
 
 ---
 
@@ -51,26 +59,17 @@ Este projeto foi construído com as seguintes tecnologias:
 
 O projeto está organizado de forma clara e modular para facilitar o entendimento e a manutenção:
 
-```
-
 CalculadoraCSharp/
 ├── Models/
-│   └── Calculadora.cs  \# Classe com a lógica e os métodos matemáticos
-└── Program.cs          \# Ponto de entrada da aplicação e interface com o usuário
+│   └── Calculadora.cs  # Classe com a lógica e os métodos matemáticos
+└── Program.cs          # Ponto de entrada da aplicação e interface com o usuário
 
-````
 
 ---
 
 ## ▶️ Como Executar
 
 Para rodar o projeto em sua máquina local, siga os passos abaixo.
-
-### **Pré-requisitos**
-
-Antes de começar, você vai precisar ter as seguintes ferramentas instaladas em seu ambiente:
-* **[.NET 8 SDK](https://dotnet.microsoft.com/download/dotnet/8.0)**
-* **[Git](https://git-scm.com/downloads)**
 
 ### **Passo a Passo**
 
@@ -124,29 +123,16 @@ numeroIncremento++;       // valor agora é 11
 
 int numeroDecremento = 20;
 numeroDecremento--;       // valor agora é 19
-````
+</details>
 
-\</details\>
+👩‍💻 Autor
+<a href="https://www.google.com/search?q=https://github.com/Crislei-Jenuino">
+<img style="border-radius: 50%;" src="https://www.google.com/search?q=https://avatars.githubusercontent.com/u/109483984%3Fv%3D4" width="100px;" alt="Foto de Crislei Jenuino"/>
+<br />
+<sub><b>Crislei Jenuino</b></sub>
+</a>
+<br />
 
------
+Feito com ❤️ e ☕!
 
-## 👩‍💻 Autor
-
-\<a href="https://www.google.com/search?q=https://github.com/Crislei-Jenuino"\>
-\<img style="border-radius: 50%;" src="https://www.google.com/search?q=https://avatars.githubusercontent.com/u/109483984%3Fv%3D4" width="100px;" alt="Foto de Crislei Jenuino"/\>
-\<br /\>
-\<sub\>\<b\>Crislei Jenuino\</b\>\</sub\>
-\</a\>
-\<br /\>
-
-Feito com ❤️ e ☕\!
-
-[](https://www.google.com/search?q=https://www.linkedin.com/in/crislei-jenuino/)
-[](https://www.google.com/search?q=https://github.com/Crislei-Jenuino)
-
------
-
-Se este projeto foi útil para você, considere dar uma ⭐ no repositório\! ✨
-
-```
-```
+Se este projeto foi útil para você, considere dar uma ⭐ no repositório! ✨
