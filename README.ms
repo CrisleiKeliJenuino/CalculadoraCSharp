@@ -1,9 +1,3 @@
-Ótima ideia\! Adicionar alguns elementos visuais, como emojis e aprimorar a estrutura, pode tornar o README muito mais atraente e fácil de ler.
-
-Aqui está uma versão ainda mais visual e profissional, mantendo as correções e melhorias que fizemos.
-
------
-
 # 🧮 Calculadora em C\# & .NET
 
 -----
