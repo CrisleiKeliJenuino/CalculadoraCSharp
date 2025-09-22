@@ -15,7 +15,7 @@ Ela executa operações matemáticas básicas ➕➖✖️➗ e também funçõe
 ✅ Soma ➕  
 ✅ Subtração ➖  
 ✅ Multiplicação ✖️  
-✅ Divisão ➗  
+✅ Divisão ➗   
 ✅ Potência 🔋  
 ✅ Raiz Quadrada 🌀  
 ✅ Seno 📐  
