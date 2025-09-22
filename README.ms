@@ -1,4 +1,6 @@
 # 🧮 Calculadora em C# & .NET  
+[![C#](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white)](https://docs.microsoft.com/dotnet/csharp/)
+[![.NET](https://img.shields.io/badge/.NET-512BD4?style=for-the-badge&logo=dot-net&logoColor=white)](https://dotnet.microsoft.com/)
 
 ✨ Projeto de estudos feito com muito 💻, ☕ e dedicação!  
 
